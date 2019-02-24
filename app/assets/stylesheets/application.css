@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: lightblue;
+  margin-top: 36px;
+  color: white;
+  width: 30%;
+}
+
+#article_content {
+    height: 200px;
+  }
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
